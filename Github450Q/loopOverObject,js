@@ -1,0 +1,12 @@
+const obj = {
+    name:"preet",
+    age:45
+}
+for(let [key,value] of Object.entries(obj)){
+    console.log(key,value);
+}
+
+const arr = ["a", "b", "c"];
+for (const [index, value] of arr.entries()) {
+  console.log(index, value);
+}
