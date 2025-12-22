@@ -54,4 +54,7 @@ var y = +x;
 console.log(typeof x, typeof y); // string, number
 console.log(x,y);
 
+let arr = []
+for(let i = 0; i < 5; arr[i++]=1);
 
+console.log(arr);
