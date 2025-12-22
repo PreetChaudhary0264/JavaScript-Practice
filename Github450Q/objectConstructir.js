@@ -35,10 +35,23 @@ Object.defineProperty(count,"increment",{
     }
 })
 
-console.log(ans);
 
 function add(one,two,three){
     console.log(one);
     
 }
 add(1)
+
+const iterable = [1,2,3]   //iterable 
+const iterator = iterable[Symbol.iterator]()   //[Symbol.iterator]()   ek object return krta hai fir next() usme obj me se value deta hai
+console.log(iterator.next());
+console.log(iterator.next());   //next method ek object return krta hai jisme properties hoti hai value and done.
+console.log(iterator.next());
+console.log(iterator.next());
+
+var x = "100";
+var y = +x;
+console.log(typeof x, typeof y); // string, number
+console.log(x,y);
+
+
