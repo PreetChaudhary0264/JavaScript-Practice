@@ -30,13 +30,17 @@ const UserObj = {
     name:"alice",
     age:30,
 
-    get name(){
+    get  getName(){
         return this.name
     },
-    set name(newName){
+    set setName(newName){
         this.name = newName;
     }
 }
 
 const tea = Object.create(UserObj)
-console.log(tea.name);
+console.log(tea.getName);
+tea.setName = "preet"
+console.log(tea.getName);
+
+
