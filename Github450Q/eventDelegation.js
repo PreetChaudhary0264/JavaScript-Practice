@@ -18,9 +18,10 @@ container.addEventListener("click",(e)=>{
     <button id="1"></button>
 </div> */}
 
+const arr = [1,2,3,4,5]
+
 const con = document.querySelector('div')
 con.addEventListener("click",(e)=>{
     const button = e.target.closest("botton")
     console.log(button.dataset.id);
-    
 })
