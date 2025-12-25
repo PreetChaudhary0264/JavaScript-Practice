@@ -21,6 +21,7 @@ container.addEventListener("click",(e)=>{
 const arr = [1,2,3,4,5]
 const arr2 = [1,2,3,4,5]
 const arr3 = [1,2,3,4,5]
+const ar4 = [1,2,3,4,5]
 
 const con = document.querySelector('div')
 con.addEventListener("click",(e)=>{
