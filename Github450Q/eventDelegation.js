@@ -1,9 +1,9 @@
 const container = document.querySelector('ul');
 
 {/* <ul>
-    <li id="1"></li>
-    <li id="2"></li>
-    <li id="3"></li>
+    <li id="1">hi</li>
+    <li id="2">hi</li>
+    <li id="3">hi</li>
 </ul> */}
 
 container.addEventListener("click",(e)=>{
