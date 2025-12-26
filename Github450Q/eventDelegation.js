@@ -74,3 +74,8 @@ const arr = [2,3,4]
 var odd = (element) => element % 2 !== 0;
 console.log(arr.some(odd));
 
+const obj1 = {
+    name:"preet"
+}
+const obj2 = structuredClone(obj1)
+console.log(obj2);
