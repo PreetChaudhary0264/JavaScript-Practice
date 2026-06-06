@@ -31,9 +31,9 @@ let d2 = Number(d)
 
 //*******************operations*****************
 
-// console.log(null > 0); //false
-// console.log(nul == 0);//false
-// console.log(null >= 0);//true
+console.log(null > 0); //false
+console.log(null == 0);//false
+console.log(null >= 0);//true
 //the reason is that comparison converts null to a number,treating it as 0
 //undefined ke sath in tino ka ans false hi aayga
 
@@ -91,4 +91,7 @@ console.log(time);
 //second me convert krne ke liye
 // console.log(Math.floor(Date.now()/1000));
 // console.log(date3.getMonth());
+
+const aa = Number(true)
+console.log(aa);
 
