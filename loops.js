@@ -4,7 +4,7 @@ const obj = {
     js:"javascript",
     java:"java"
 }
-for (const key in object) {
+for (const key in obj) {
     console.log(obj[key]);  
 }
 

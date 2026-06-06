@@ -51,3 +51,13 @@ let val;
 
 val = undefined ?? 10
 console.log(val);
+
+const arrrrr = [1,2,3]
+arrrrr.forEach((val,index,arrrrr)=>{
+   arrrrr[index] = val + 2;
+})
+console.log(arrrrr);
+
+const a = arrrrr.reduce((sum, val)=> sum + val ,0)
+console.log(a);
+
