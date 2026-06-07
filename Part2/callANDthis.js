@@ -12,5 +12,18 @@ function createUser(username,email,password){
     this.password = password;
 }
 
-const obj = new createUser('alice','alice@gmail.com','alice123');
+const obj =  createUser('alice','alice@gmail.com','alice123');
 console.log(obj);
+
+//aajkal class use krte hai
+
+class User{
+    constructor(name,email){
+        this.name = name
+        this.email = email
+    }
+}
+
+const user = new User("preet","abc@gmail.com")
+console.log(user);
+
